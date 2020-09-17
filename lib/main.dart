@@ -41,10 +41,10 @@ class MyApp extends StatelessWidget {
       },
       // onGenerateRoute it's reached if i'm going to a named route, with
       // pushNamed that is not registered in the routes table
-      onGenerateRoute: (settings) {
-        print(settings.arguments);
-        // return MaterialPageRoute(builder: (ctx) => CategoriesScreen(),);
-      },
+      // onGenerateRoute: (settings) {
+      //   print(settings.arguments);
+      //   // return MaterialPageRoute(builder: (ctx) => CategoriesScreen(),);
+      // },
       // onUnknownRoute it's only reach when Flutter failed to build a screen
       // with all other measures, it's like the 404 on the web. In this case
       // the "404" page it's the CategoriesScreen
