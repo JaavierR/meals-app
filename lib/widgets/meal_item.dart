@@ -57,6 +57,9 @@ class MealItem extends StatelessWidget {
       arguments: id,
     )
         .then((result) {
+      // The function runs not when I'm done pushing but when I'm
+      // done with that page I pushed to, so when that page you pushed to
+      // is removed.
       if (result != null) {
         removeItem(result);
       }
